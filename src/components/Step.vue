@@ -40,7 +40,7 @@ export default {
   display: flex;
   padding: 0 15px;
   position: relative;
-  height: 40px;
+  min-height: 40px;
 
   &.selected {
     background-color: $step-selected-bg-color;
@@ -53,12 +53,10 @@ export default {
 }
 
 .name {
-  white-space: nowrap;
-  text-overflow: ellipsis;
   overflow: hidden;
   flex-grow: 1;
   margin-left: 10px;
-  padding: 2px 0;
+  padding: 8px 0;
 }
 
 time {
