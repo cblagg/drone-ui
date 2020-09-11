@@ -57,6 +57,7 @@ export default {
   flex-grow: 1;
   margin-left: 10px;
   padding: 8px 0;
+  word-break: break-word;
 }
 
 time {
